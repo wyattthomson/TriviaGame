@@ -1,0 +1,31 @@
+
+
+button {
+	font-family: 'Rock Salt', cursive;	color: white;
+	border-style: solid;
+	border-radius: 25px;
+	background-color: black;
+	width: 250px;
+    border: 5px solid white;
+    margin-right: 400px;
+	padding-left: 9%;
+	padding-right: 16%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	float: right;
+
+}
+h2 {
+	font-family: 'Rock Salt', cursive;	font-size: 50px;
+	color: white;
+	margin-right: 100px;
+	float: right;
+
+}
+body { background-color: #101010 	;
+
+}
+
+.img  {
+		margin-top: 10%;
+}
