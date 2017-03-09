@@ -1,17 +1,18 @@
 
 
 button {
-	font-family: 'Rock Salt', cursive;	color: white;
-	border-style: solid;
+	font-family: 'Rubik Mono One', sans-serif;	border-style: solid; 
+	font-size: 40px;
+	color:white;
 	border-radius: 25px;
 	background-color: #4B5320;
 	width: 250px;
     border: 5px solid white;
     margin-right: 400px;
-	padding-left: 9%;
-	padding-right: 16%;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 26%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 	float: right;
 
 }
