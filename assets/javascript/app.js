@@ -1,6 +1,5 @@
 var panel = $("#quiz-area");
 
-// Question set
 var questions = [{
   question: "In what month did The Venture Bros Premier??",
   answers: ["February", "January", "May", "November"],
@@ -35,7 +34,6 @@ var questions = [{
   correctAnswer: "Mr.Belding"
 }];
 
-// Variable that will hold the setInterval
 var timer;
 
 var game = {
@@ -162,8 +160,6 @@ var game = {
   }
 };
 
-// CLICK EVENTS
-
 $(document).on("click", "#start", function() {
   game.start();
 });
@@ -172,3 +168,5 @@ $(document).on("click", "#start", function() {
 $(document).on("click", "#done", function() {
   game.done();
 });
+
+
