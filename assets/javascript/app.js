@@ -53,7 +53,7 @@ var game = {
 
   start: function() {
     timer = setInterval(game.countdown, 1000);
-
+    // $('body').css('background-image', 'display','none');
     $("#sub-wrapper").prepend("<h2>Time Remaining: <span id='counter-number'>120</span> Seconds</h2>");
 
     $("#start").remove();
@@ -162,6 +162,8 @@ var game = {
 
 $(document).on("click", "#start", function() {
   game.start();
+      $('body').css('background-image', 'url(../images/brock1.jpg)',);
+
 });
 
 
